@@ -1,0 +1,58 @@
+.card-img-top{
+  border-radius: 20px 20px 0px 0px;
+    display:block;
+
+}
+body {margin:20px;
+  
+}
+
+div.container {
+text-align: center;
+padding: 20px 20px;
+}
+.card{
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-bottom: 26px;
+border-radius: 2rem 2rem; 
+
+}
+
+* {
+box-sizing: border-box;
+}
+
+
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -6px;}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+display: block;
+margin-bottom: 20px;
+}
+}
+.flex-container {
+display:table-column;
+position: relative;
+margin-left: auto;
+
+}
+img{
+height: 200px;
+}
+.card-body{
+height: 200px;
+padding-bottom: 60px;
+}
